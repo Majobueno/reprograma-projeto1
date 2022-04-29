@@ -1,0 +1,15 @@
+{
+  "name": "chefinha",
+  "version": "1.0.0",
+  "description": "Siga os passos abaixo:",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
