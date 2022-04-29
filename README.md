@@ -3,27 +3,29 @@
 
 -----
 
-Esse exercício permite uma interação no terminal para praticarmos a arquitetura, lógica e sintaxe para criar um banco de dados, buscar informações neste e apresentar o que foi obtido.
+Esse exercício permite uma interação no terminal para praticarmos a arquitetura, lógica e sintaxe para criar um banco de dados, buscar informações nele e apresentar o que foi encontrado.
 
-Segui o modelo proposto e criei uma biblioteca, uma variável que armazena uma *lista* de **objetos**, isto é, um **Array** de objetos;
+Segui o modelo proposto e criei uma biblioteca<br>
+uma variável que armazena uma *lista* de **objetos**, isto é, um **Array** de objetos
+<Br>
+ = Em outro arquivo, para que tudo fique organizado e fácil de organizar que parte, ou componente, é responsável por cada *feature*, ou **recurso** do código que estamos construindo.
 
-Em outro arquivo, para que tudo fique organizado e fácil de organizar que parte, ou componente, é responsável por cada *feature*, ou **recurso** do código que estamos construindo.
+ = Em uma pasta reuni, conforme instruido, os controladores ou os códigos que entram em ação quando requisitados no menu principal do projeto, esses arquivos guardam o que chamamos de funlão callback.
 
-Em uma pasta reuni, conforme instruido, os controladores ou os códigos que entram em ação quando requisitados no menu principal do projeto, esses arquivos guardam o que chamamos de funlão callback.
+ = Em cada funcionalidade foi possível praticar  e compreender sintaxes que simplificam e agilizam a maneira de escrever funções, assim como os métodos de interação com arrays.
 
-Em cada funcionalidade foi possível praticar  e compreender sintaxes que simplificam e agilizam a maneira de escrever funções, assim como os métodos de interação com arrays.
+ = Ao buscar um livro, usamos o método **livro.filter** para varrer toda a lista e encontrar propriedades de valor igual ao *input* da pessoa usando o programa, nesse caso comparando com o livro.categoria.
 
-Ao buscar um livro, usamos o método **livro.filter** para varrer toda a lista e encontrar propriedades de valor igual ao *input* da pessoa usando o programa, nesse caso comparando com o livro.categoria.
+ = Ao solicitar que ordene, o programa utiliza **livro.sort** para comparar e roda inúmeras vezes até que toda a lista esteja na ordem especificada. aqui pelo número de páginas
 
-Ao solicitar que ordene, o programa utiliza **livro.sort** para comparar e roda inúmeras vezes até que toda a lista esteja na ordem especificada. aqui pelo número de páginas
+ = A terceira opção utiliza uma função para conferir os livros que estão marcados com **True** em *leu* e recomendados e retorna os livros à pessoa.
 
-A terceira opção utiliza uma função para conferir os livros que estão marcados com **True** em *leu* e recomendados e retorna os livros à pessoa.
-
-A última funcionalidade filtra a lista conferindo os livros marcados com **false** na propriedade *leu*
+ = A última funcionalidade filtra a lista conferindo os livros marcados com **false** na propriedade *leu*
 
 
+===
 
-`COMPORTAMENTO ESPERADO`
+`COMPORTAMENTO ESPERADO`  <br>
 ![image](https://c.tenor.com/4MwauWSFOuYAAAAM/dragon-dragon-ball-z.gif)
 
 
